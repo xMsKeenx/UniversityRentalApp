@@ -1,5 +1,11 @@
 # University Equipment Rental System
 
+## How to Run
+1. Open the `UniversityRentalApp.sln` file in Visual Studio.
+2. Set `UniversityRentalApp` as the startup project.
+3. Click the green "Start" (Play) button at the top menu, or press F5.
+4. The console window will open and automatically run the demonstration scenario, showing successful rentals, blocked limit attempts, and penalty calculations.
+
 ## Design Decisions and Architecture
 Instead of putting all the logic into `Program.cs` or one massive `App` class, I separated the project into distinct folders (Models, Repositories, Rules, and Services) to ensure high cohesion and loose coupling.
 
