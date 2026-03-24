@@ -24,7 +24,7 @@ namespace UniversityRentalApp.Models
         }
         public override string ToString()
         {
-            return "{FirstName} {LastName} ({Type}) - ID: {Id}";
+            return $"{FirstName} {LastName} ({Type}) - ID: {Id}";
         }
 
     }
